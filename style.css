@@ -1,0 +1,255 @@
+body {
+  color: rgb(238, 194, 234);
+
+  background-image: url(images/l.jpg);
+  background-size: cover;
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+  font-family: "MyCustomFont", sans-serif;
+}
+/* header Styles */
+header {
+  background-color: rgb(24, 22, 22);
+  padding: 10px 0px;
+  box-shadow: #e6e0e9;
+}
+ul,
+a {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+}
+nav,
+ul {
+  display: flex;
+  justify-content: center;
+}
+nav,
+ul,
+li {
+  margin: 0 20px;
+}
+nav,
+ul,
+li,
+a {
+  color: rgb(238, 194, 234);
+  font-size: 16px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  transition: background-color 0.6s;
+}
+nav ul li a:hover {
+  background-color: rgb(138, 3, 104);
+}
+nav ul li a :focus,
+nav ul li a:active {
+  background-color: rgb(190, 190, 212);
+  box-shadow: 0 0 20px rgba(243, 110, 188, 0.5);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+/* index page Styles */
+.a {
+  display: flex;
+  justify-content: center;
+}
+.b {
+  position: relative;
+  text-align: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* index page Styles */
+.first {
+  display: flex;
+  justify-content: center;
+}
+.box {
+  position: relative;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin: 100px;
+  border: 2px solid rgb(238, 194, 234);
+  padding: 20px;
+  background-color: rgb(24, 22, 22);
+  height: 230px;
+  width: 200px;
+  margin-bottom: 100px;
+  margin-top: 10px;
+}
+.box img {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+}
+.box:hover,
+.box:focus,
+.pbox:active {
+  box-shadow: 0 0 20px rgba(63, 62, 62, 0.5);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+.p {
+  margin: 10px;
+}
+/* footer Styles */
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(24, 22, 22);
+  text-align: center;
+  padding: 0px;
+}
+.footer p {
+  color: #d3c5c5;
+}
+/* movies details page Styles */
+.aboutmovie {
+  position: relative;
+  align-items: center;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 10px solid rgb(238, 194, 234);
+  padding: 20px;
+  padding-bottom: 250px;
+  background-color: rgb(24, 22, 22);
+  height: 830px;
+  width: 800px;
+  margin-bottom: 100px;
+}
+.aboutmovie .fa {
+  text-align: left;
+  margin-top: 0px;
+}
+
+img {
+  max-width: 200%;
+  height: 830px;
+  width: 800px;
+}
+.play {
+  color: rgb(73, 2, 41);
+  background: rgb(138, 3, 104);
+  width: 30;
+  height: 20;
+  margin-left: 0px;
+  margin-bottom: 10px;
+  border: solid;
+}
+
+.play:hover,
+.play:focus,
+.play:active {
+  box-shadow: 0 0 20px rgba(243, 110, 188, 0.5);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+/* movies page Styles */
+.box2 {
+  position: relative;
+  text-align: center;
+  margin: 100px;
+  border: 2px solid rgb(238, 194, 234);
+  padding: 20px;
+  padding-bottom: 50px;
+  background-color: rgb(24, 22, 22);
+  height: 230px;
+  width: 200px;
+  margin-bottom: 100px;
+  margin-top: 60px;
+}
+.box2 img {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+}
+.box2:hover,
+.box2:focus,
+.pbox2:active {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+/* Pagination Styles */
+.pagination {
+  text-align: center;
+  padding-top: 10px;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.pagination a {
+  color: #e2dddd;
+  display: inline-block;
+  text-decoration: none;
+  position: relative;
+  text-align: center;
+  margin: 0px;
+  border: 2px solid #504f4f;
+  padding: 15px;
+  background-color: rgb(24, 22, 22);
+  margin-bottom: 0px;
+}
+
+.p a.active {
+  background-color: #797272;
+  color: white;
+}
+.p:hover,
+.p:focus {
+  box-shadow: 0 0 20px rgba(231, 155, 208, 0.5);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  background-color: rgb(109, 6, 104);
+}
+/*icon index page style*/
+.fa-regular {
+  position: absolute;
+  margin-top: 96px;
+  margin-bottom: 140px;
+  margin-left: 70px;
+  margin-right: 190px;
+  opacity: 0;
+  font-size: 50px;
+  color: rgb(179, 35, 179);
+}
+.fa-circle-play:hover {
+  opacity: 1;
+  transition: opacity 0.8s ease;
+}
+.fa-brands {
+  position: absolute;
+  margin-top: 96px;
+  margin-bottom: 140px;
+  margin-left: -130px;
+  margin-right: 200px;
+  opacity: 0;
+  font-size: 50px;
+  color: rgb(179, 35, 179);
+}
+.fa-google-play:hover {
+  opacity: 1;
+  transition: opacity 0.8s ease;
+}
+/* brows page*/
+iframe {
+  position: relative;
+  text-align: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-left: 270px;
+  margin-right: 200px;
+  margin-bottom: 50px;
+  height: 800px;
+  width: 800px;
+}
